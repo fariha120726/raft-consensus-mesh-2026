@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b081d"/>
+      <stop offset="50%" stop-color="#140f33"/>
+      <stop offset="100%" stop-color="#05030e"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241b4b"/>
+      <stop offset="100%" stop-color="#130e2b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="500" rx="18" fill="url(#bg1)"/>
+
+  <g stroke="#6366f1" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="900" y1="0" x2="900" y2="500" />
+  </g>
+
+  <rect x="380" y="40" width="440" height="34" rx="17" fill="#312e81" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="600" y="63" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">🌐 DISTRIBUTED SYSTEMS &amp; CONSENSUS</text>
+
+  <text x="600" y="125" fill="url(#g1)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="44" font-weight="900" text-anchor="middle">DISTRIBUTED RAFT MESH</text>
+  <text x="600" y="160" fill="#ddd6fe" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" text-anchor="middle">Fault-Tolerant Replicated State Machine, Leader Election &amp; High-Throughput Log Quorum</text>
+
+  <g transform="translate(80, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c1)" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#6366f1" font-size="22">⚡</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Sub-Millisecond Quorum</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Optimized heartbeats &amp; RPCs</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Dynamic cluster membership</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Zero data-loss commit log</text>
+    <rect x="30" y="175" width="85" height="20" rx="6" fill="#4338ca" fill-opacity="0.4"/>
+    <text x="72" y="189" fill="#c7d2fe" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">&lt; 1.5MS P99</text>
+  </g>
+
+  <g transform="translate(440, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c1)" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#8b5cf6" font-size="22">🛡️</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Split-Brain Proof</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Strict majority term checking</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Pre-vote protocol prevents flaps</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Linearizable reads engine</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#6d28d9" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#ede9fe" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">JAPSER VERIFIED</text>
+  </g>
+
+  <g transform="translate(800, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c1)" stroke="#ec4899" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#ec4899" font-size="22">🚀</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">High-Concurrency Log</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Pipelined AppendEntries batching</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Zero-copy WAL disk flushing</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">100k+ TPS on NVMe storage</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#be185d" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#fce7f3" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">100K+ TPS</text>
+  </g>
+</svg>
